@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = "IVR chatbot using FastAPI and Groq API"
+authors = ["Adisheshar <reddyadishesha015@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+requests = "^2.31.0"
+twilio = "^9.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
